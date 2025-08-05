@@ -3,7 +3,7 @@ import { createModuleFederationConfig } from '@module-federation/rsbuild-plugin'
 export default createModuleFederationConfig({
     name: 'host',
     remotes: {
-        remote: 'remote@http://localhost:3002/remoteEntry.js',
+        remote: 'remote@https://lemon-water-01ff23b10.2.azurestaticapps.net/remoteEntry.js',
     },
     shareStrategy: 'loaded-first',
     shared: {

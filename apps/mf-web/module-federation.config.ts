@@ -14,4 +14,5 @@ export default createModuleFederationConfig({
       singleton: true,
     },
   },
+  getPublicPath: `function(){ return 'https://lemon-water-01ff23b10.2.azurestaticapps.net/' }`,
 });
