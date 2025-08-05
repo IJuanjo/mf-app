@@ -12,6 +12,7 @@ export default defineConfig({
     port: 3002,
   },
   output: {
-    cleanDistPath: true, // Clean the dist path before each build
+    assetPrefix: 'https://lemon-water-01ff23b10.2.azurestaticapps.net/',
+    cleanDistPath: true,
   }
 });
