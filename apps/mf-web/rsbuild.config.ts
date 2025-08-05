@@ -10,5 +10,8 @@ export default defineConfig({
   ],
   server: {
     port: 3002,
+  },
+  output: {
+    cleanDistPath: true, // Clean the dist path before each build
   }
 });
