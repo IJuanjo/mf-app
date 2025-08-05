@@ -10,5 +10,8 @@ export default defineConfig({
   plugins: [
     pluginReact(),
     pluginModuleFederation(mfConfig)
-  ]
+  ],
+  output: {
+    cleanDistPath: true,
+  }
 });
